@@ -1,1 +1,1 @@
-This is short description for my page. Unfortunately i dont rnow what i must write.
+This is a simple project of a Ukrainian cuisine website.Used html and some css.
