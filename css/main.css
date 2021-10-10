@@ -14,3 +14,25 @@ img.cuisine {
     width: 700px;
     height: 600px;
 }
+img.borsch {
+    width: 50%;
+    height: 600px;
+}
+h1 {
+    background-color: aquamarine;
+    width: 50%;
+}
+.headpage {
+    background-color: burlywood;
+}
+.borschpage {
+    background-color: cyan;
+}
+.about {
+    background-color: rgb(211, 198, 174);
+    width: 50%;
+}
+a {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
