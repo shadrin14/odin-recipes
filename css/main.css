@@ -3,15 +3,15 @@ p {
     width: 800px;
 }
 img.salo {
-    width: 700px;
+    width: 50%;
     height: 600px;
 }
 img.galushka {
-    width: 700px;
+    width: 50%;
     height: 600px;
 }
 img.cuisine {
-    width: 700px;
+    width: 50%;
     height: 600px;
 }
 img.borsch {
@@ -25,7 +25,7 @@ h1 {
 .headpage {
     background-color: burlywood;
 }
-.borschpage {
+.recipe_page_color{
     background-color: cyan;
 }
 .about {
