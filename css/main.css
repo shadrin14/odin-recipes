@@ -44,12 +44,4 @@ a {
     margin: auto;
     padding: auto;
 }
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.navigation {
-    display: flex;
-    justify-content: space-between;
-}
+
