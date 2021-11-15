@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 p {
     text-align:left ;
     width: 800px;
@@ -18,10 +23,7 @@ img.borsch {
     width: 50%;
     height: 600px;
 }
-h1 {
-    background-color: aquamarine;
-    width: 50%;
-}
+
 .headpage {
     background-color: burlywood;
 }
@@ -39,8 +41,15 @@ a {
 .header {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    padding: auto;
 }
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navigation {
     display: flex;
     justify-content: space-between;
 }
