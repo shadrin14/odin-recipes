@@ -1,24 +1,35 @@
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
+
+body{
+font-size: 18;
+line-height: 120%;
+color: black;
+}
+
 p {
-    text-align:left ;
+    text-align: left;
     width: 800px;
 }
+
 img.salo {
     width: 50%;
     height: 600px;
 }
+
 img.galushka {
     width: 50%;
     height: 600px;
 }
+
 img.cuisine {
     width: 50%;
     height: 600px;
 }
+
 img.borsch {
     width: 50%;
     height: 600px;
@@ -27,21 +38,24 @@ img.borsch {
 .headpage {
     background-color: burlywood;
 }
-.recipe_page_color{
+
+.recipe_page_color {
     background-color: cyan;
 }
+
 .about {
     background-color: rgb(211, 198, 174);
     width: 50%;
 }
+
 a {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .header {
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: auto;
 }
-
