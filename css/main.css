@@ -16,18 +16,19 @@ a {
     text-decoration: none;
 }
 .container {
-    min-width: 1140px;
-    margin: 0 auto;
-    padding: 0 10px;
+    max-width: 100vw;
+    margin: auto;
+    padding: 10px 10px;
+    
 }
 .header__content {
     background-image: url(../images/cuisine.jpg);
+    padding: 10px 10px;
+}
+.nav_menu {
+    min-height: 100vh;
 }
 
-p {
-    text-align: left;
-    width: 800px;
-}
 
 img.salo {
     width: 50%;
