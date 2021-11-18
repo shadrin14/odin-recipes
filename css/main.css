@@ -23,10 +23,20 @@ a {
 }
 .header__content {
     background-image: url(../images/cuisine.jpg);
-    padding: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .nav_menu {
-    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
