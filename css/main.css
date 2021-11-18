@@ -10,6 +10,20 @@ line-height: 120%;
 color: black;
 }
 
+a {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.container {
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__content {
+    background-image: url(../images/cuisine.jpg);
+}
+
 p {
     text-align: left;
     width: 800px;
@@ -35,10 +49,6 @@ img.borsch {
     height: 600px;
 }
 
-.headpage {
-    background-color: burlywood;
-}
-
 .recipe_page_color {
     background-color: cyan;
 }
@@ -48,14 +58,3 @@ img.borsch {
     width: 50%;
 }
 
-a {
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: auto;
-}
