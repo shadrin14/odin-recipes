@@ -14,6 +14,7 @@ a {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
+    color: white;
 }
 .container {
     max-width: 100vw;
@@ -28,16 +29,21 @@ a {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  
 }
 .nav_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
-.menu {
-    display: flex;
-    justify-content: space-evenly;
+.menu ul {
+   display: flex;
 }
+.menu ul li {
+ padding: 20px;
+}
+
 
 
 img.salo {
